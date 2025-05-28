@@ -32,52 +32,63 @@
             this.txtsdt = new System.Windows.Forms.TextBox();
             this.btnluu = new System.Windows.Forms.Button();
             this.txtemail = new System.Windows.Forms.TextBox();
+            this.lblthongtinbosung = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(242, 128);
+            this.txtName.Location = new System.Drawing.Point(344, 62);
             this.txtName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(112, 26);
+            this.txtName.Size = new System.Drawing.Size(122, 26);
             this.txtName.TabIndex = 0;
             this.txtName.Text = "Họ Tên";
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtsdt
             // 
-            this.txtsdt.Location = new System.Drawing.Point(354, 197);
+            this.txtsdt.Location = new System.Drawing.Point(344, 200);
             this.txtsdt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtsdt.Name = "txtsdt";
-            this.txtsdt.Size = new System.Drawing.Size(112, 26);
+            this.txtsdt.Size = new System.Drawing.Size(122, 26);
             this.txtsdt.TabIndex = 1;
             this.txtsdt.Text = "Số Điện Thoại";
             this.txtsdt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnluu
             // 
-            this.btnluu.Location = new System.Drawing.Point(354, 324);
+            this.btnluu.Location = new System.Drawing.Point(344, 324);
             this.btnluu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnluu.Name = "btnluu";
-            this.btnluu.Size = new System.Drawing.Size(112, 45);
+            this.btnluu.Size = new System.Drawing.Size(122, 45);
             this.btnluu.TabIndex = 2;
             this.btnluu.Text = "Lưu";
             this.btnluu.UseVisualStyleBackColor = true;
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(473, 128);
+            this.txtemail.Location = new System.Drawing.Point(344, 128);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(100, 26);
+            this.txtemail.Size = new System.Drawing.Size(122, 26);
             this.txtemail.TabIndex = 3;
             this.txtemail.Text = "Email";
             this.txtemail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lblthongtinbosung
+            // 
+            this.lblthongtinbosung.AutoSize = true;
+            this.lblthongtinbosung.Location = new System.Drawing.Point(340, 263);
+            this.lblthongtinbosung.Name = "lblthongtinbosung";
+            this.lblthongtinbosung.Size = new System.Drawing.Size(136, 20);
+            this.lblthongtinbosung.TabIndex = 4;
+            this.lblthongtinbosung.Text = "Thông tin bổ sung";
             // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 562);
+            this.Controls.Add(this.lblthongtinbosung);
             this.Controls.Add(this.txtemail);
             this.Controls.Add(this.btnluu);
             this.Controls.Add(this.txtsdt);
@@ -96,5 +107,6 @@
         private System.Windows.Forms.TextBox txtsdt;
         private System.Windows.Forms.Button btnluu;
         private System.Windows.Forms.TextBox txtemail;
+        private System.Windows.Forms.Label lblthongtinbosung;
     }
 }
